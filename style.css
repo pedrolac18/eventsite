@@ -1,0 +1,100 @@
+body{
+  box-sizing: border-box;
+  margin: 0px;
+
+
+  background-image: url("background.jpg");
+}
+
+
+#logo{
+  text-align: center;
+  color:  blueviolet;
+  text-shadow: 1px 1px 1px white;
+}
+
+
+#nav-s{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+
+
+  .az{
+    color:  blanchedalmond;
+
+    margin-right: 2rem;
+    text-decoration: none;
+    margin-top: 1.5rem;
+  }
+
+ .az:hover{
+    color: white;
+    transition: 1s;
+    border-bottom: 1px solid;
+
+    cursor: pointer;
+ }
+
+ #marketing{
+   color: whitesmoke;
+   text-shadow: .5px .5px blueviolet;
+
+   text-align: center;
+   margin-left: 11rem;
+
+   display: flex;
+   word-wrap: break-word;
+
+   max-width: 1000px;
+   width: 100%;
+ }
+
+ #video{
+   display: flex;
+   justify-content: center;
+
+   margin-top: 2rem;
+ }
+
+ p{
+   color: wheat;
+   text-align: center;
+ }
+
+
+@media (max-width: 1024px){
+ #marketing{
+   margin-left: 0.5rem;
+   margin-right: 0.5rem;
+
+
+ }
+
+}
+
+@media (max-width: 605px) {
+
+iframe{
+  width: 400px;
+}
+
+}
+
+@media (max-width: 520px) {
+
+ #nav-s{
+   flex-direction: column;
+   align-items: center;
+   justify-content: flex-start;
+ }
+
+}
+
+
+@media (max-width: 400px) {
+
+iframe{
+  width: 300px;
+}
